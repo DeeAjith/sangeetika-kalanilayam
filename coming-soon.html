@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sangeetika Kala Nilayam | Coming Soon!</title>
+    <link rel="shortcut icon" href="assets/media/SVG/skn_logo.svg" type="image/svg">
+    <link rel="stylesheet" href="assets/tailwindcss/tailwindcss-all.css">
+    <style>
+        body {
+            background: url("assets/media/SVG/gradient-1.svg") center / cover no-repeat;
+            position: relative;
+            overflow: hidden;
+        }
+
+        body::before {
+            content: "";
+            background: url("assets/media/SVG/shape-3.svg") center/cover no-repeat;
+            opacity: .1;
+            width: 120vw;
+            height: 120vh;
+            position: absolute;
+            mix-blend-mode: overlay;
+        }
+
+        span.o::after {
+            font-size: 17rem;
+            animation: anime infinite;
+            content: '.';
+            mix-blend-mode: multiply;
+            line-height: 0;
+        }
+
+        .o {
+            font-size: 0;
+        }
+    </style>
+</head>
+
+<body class="body flex justify-center items-center w-screen h-screen font-sans">
+    <h1 class="font-black text-7xl md:text-9xl text-center text-primary">
+        C<span class="o">o</span>ming <br>
+        <span class="text-secondary-200">S<span class="o">o</span>on!</span>
+    </h1>
+</body>
+
+</html>
