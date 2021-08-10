@@ -1,7 +1,6 @@
 {
-  "name": "skn-landingpage",
+  "name": "sangeetika-kalanilayam",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-tailwindcss": "tailwindcss build src/tailwindcss-all.css -o public/assets/tailwindcss/tailwindcss-all.css",
@@ -18,11 +17,5 @@
   "devDependencies": {
     "static-site": "^1.3.5"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DeeAjith/skn-landingpage.git"
-  },
-  "bugs": {
-    "url": "https://github.com/DeeAjith/skn-landingpage/issues"
-  }
+  "description": ""
 }
