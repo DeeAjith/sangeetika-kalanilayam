@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 4000 2000">
+  <defs>
+    <style>
+      .a {
+        fill: url(#a);
+      }
+    </style>
+    <radialGradient id="a" cx="1990" cy="995" r="2000" gradientUnits="userSpaceOnUse">
+      <stop offset="0.2" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ffe2ff"/>
+    </radialGradient>
+  </defs>
+  <rect class="a" width="4000" height="2000"/>
+</svg>

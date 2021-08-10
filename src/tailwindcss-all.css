@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    @variants responsive {
+    .scroll-snap-none {
+      scroll-snap-type: none;
+    }
+    .scroll-snap-x {
+      scroll-snap-type: x mandatory;
+    }
+    .scroll-snap-y {
+      scroll-snap-type: y mandatory;
+    }
+    .scroll-snap-center {
+        scroll-snap-align: center;
+    }
+    .scroll-snap-start {
+        scroll-snap-align: start;
+    }
+    .scroll-snap-end {
+        scroll-snap-align: end;
+    }
+    .scroll-snap-SE {
+        scroll-snap-align: start end;
+    }
+  }
+}

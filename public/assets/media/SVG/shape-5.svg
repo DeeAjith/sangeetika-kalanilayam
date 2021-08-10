@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 951.9 187.75">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+      }
+
+      .b {
+        clip-path: url(#a);
+      }
+
+      .c {
+        fill: #4d3393;
+      }
+
+      .d {
+        clip-path: url(#b);
+      }
+
+      .e {
+        clip-path: url(#c);
+      }
+
+      .f {
+        clip-path: url(#d);
+      }
+
+      .g {
+        clip-path: url(#e);
+      }
+
+      .h {
+        clip-path: url(#f);
+      }
+
+      .i {
+        clip-path: url(#g);
+      }
+
+      .j {
+        clip-path: url(#h);
+      }
+
+      .k {
+        clip-path: url(#i);
+      }
+    </style>
+    <clipPath id="a" transform="translate(-0.02 0.15)">
+      <rect class="a" x="206.23" width="109.73" height="187.61"/>
+    </clipPath>
+    <clipPath id="b" transform="translate(-0.02 0.15)">
+      <rect class="a" x="103.23" width="110" height="187.61"/>
+    </clipPath>
+    <clipPath id="c" transform="translate(-0.02 0.15)">
+      <rect class="a" width="109.23" height="187.61"/>
+    </clipPath>
+    <clipPath id="d" transform="translate(-0.02 0.15)">
+      <rect class="a" x="524.23" width="109.7" height="187.61"/>
+    </clipPath>
+    <clipPath id="e" transform="translate(-0.02 0.15)">
+      <rect class="a" x="421.23" width="110" height="187.61"/>
+    </clipPath>
+    <clipPath id="f" transform="translate(-0.02 0.15)">
+      <rect class="a" x="317.98" width="109.26" height="187.61"/>
+    </clipPath>
+    <clipPath id="g" transform="translate(-0.02 0.15)">
+      <rect class="a" x="842.23" width="109.68" height="187.61"/>
+    </clipPath>
+    <clipPath id="h" transform="translate(-0.02 0.15)">
+      <rect class="a" x="739.23" width="110" height="187.61"/>
+    </clipPath>
+    <clipPath id="i" transform="translate(-0.02 0.15)">
+      <rect class="a" x="635.95" width="109.29" height="187.61"/>
+    </clipPath>
+  </defs>
+  <g>
+    <g class="b">
+      <path class="c" d="M303.31,186.63,315,175a3.25,3.25,0,0,0,0-4.67L238.21,93.71,315,17.15a3.25,3.25,0,0,0,0-4.67L303.31.82a3.31,3.31,0,0,0-4.68,0L207.8,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.31,3.31,0,0,0,4.68,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="d">
+      <path class="c" d="M199.89,186.63,211.59,175a3.3,3.3,0,0,0,0-4.67l-76.8-76.59,76.8-76.56a3.3,3.3,0,0,0,0-4.67L199.89.82a3.37,3.37,0,0,0-4.68,0L104.38,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.37,3.37,0,0,0,4.68,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="e">
+      <path class="c" d="M96.47,186.63,108.19,175a3.34,3.34,0,0,0,0-4.67L31.39,93.71l76.8-76.56a3.34,3.34,0,0,0,0-4.67L96.47.82a3.29,3.29,0,0,0-4.66,0L1,91.39a3.32,3.32,0,0,0,0,4.67l90.83,90.57a3.34,3.34,0,0,0,4.66,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="f">
+      <path class="c" d="M621.29,186.63,633,175a3.27,3.27,0,0,0,0-4.67L556.18,93.71,633,17.15a3.27,3.27,0,0,0,0-4.67L621.29.82a3.33,3.33,0,0,0-4.69,0L525.77,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.33,3.33,0,0,0,4.69,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="g">
+      <path class="c" d="M517.86,186.63,529.56,175a3.3,3.3,0,0,0,0-4.67l-76.8-76.59,76.8-76.56a3.3,3.3,0,0,0,0-4.67L517.86.82a3.37,3.37,0,0,0-4.68,0L422.35,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.37,3.37,0,0,0,4.68,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="h">
+      <path class="c" d="M414.44,186.63,426.17,175a3.36,3.36,0,0,0,0-4.67L349.36,93.71l76.81-76.56a3.36,3.36,0,0,0,0-4.67L414.44.82a3.28,3.28,0,0,0-4.65,0L319,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.33,3.33,0,0,0,4.65,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="i">
+      <path class="c" d="M939.26,186.63,950.93,175a3.25,3.25,0,0,0,0-4.67L874.16,93.71l76.77-76.56a3.25,3.25,0,0,0,0-4.67L939.26.82a3.33,3.33,0,0,0-4.69,0L843.75,91.39a3.3,3.3,0,0,0,0,4.67l90.82,90.57a3.33,3.33,0,0,0,4.69,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="j">
+      <path class="c" d="M835.84,186.63,847.54,175a3.32,3.32,0,0,0,0-4.67L770.73,93.71l76.81-76.56a3.32,3.32,0,0,0,0-4.67L835.84.82a3.38,3.38,0,0,0-4.69,0L740.32,91.39a3.32,3.32,0,0,0,0,4.67l90.83,90.57a3.38,3.38,0,0,0,4.69,0" transform="translate(-0.02 0.15)"/>
+    </g>
+    <g class="k">
+      <path class="c" d="M732.41,186.63,744.14,175a3.36,3.36,0,0,0,0-4.67l-76.8-76.59,76.8-76.56a3.36,3.36,0,0,0,0-4.67L732.41.82a3.28,3.28,0,0,0-4.65,0L636.93,91.39a3.3,3.3,0,0,0,0,4.67l90.83,90.57a3.33,3.33,0,0,0,4.65,0" transform="translate(-0.02 0.15)"/>
+    </g>
+  </g>
+</svg>
