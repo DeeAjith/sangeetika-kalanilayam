@@ -194,7 +194,7 @@
         <div id="contact-us" class="wrapper-item contactSection">
             <div class="flex h-full">
                 <div class="w-1/2 flex flex-col justify-between">
-                    <form class="contact-form flex flex-col" action="">
+                    <form id='contact-form' autocomplete="off" class="contact-form flex flex-col">
                         <h2 class="heading-shadow contact-heading w-full mb-12 text-primary text-left text-4xl font-black">
                             Send Us a Message
                         </h2>
@@ -203,19 +203,19 @@
                                 <p>
                                     NAME
                                 </p>
-                                <input type="text" name="contact-pname" id="contact-pname" minlength="3" required/> 
+                                <input type="text" name="name" id="contact-pname" minlength="3" required/> 
                             </label>
                             <label class="flex flex-col" for="contact-pemail" id="contact-pemail_label">
                                 <p>
                                     EMAIL
                                 </p>
-                                <input type="email" name="contact-pemail" id="contact-pemail" required/> 
+                                <input type="email" name="email" id="contact-pemail" required/> 
                             </label>
                             <label class="flex flex-col" for="contact-pmsg" id="contact-pmsg_label">
                                 <p>
                                     MESSAGE
                                 </p>
-                                <textarea name="contact-pmsg" id="contact-pmsg" style="height: 110px;" minlength="100" maxlength="160" required></textarea>
+                                <textarea name="message" id="contact-pmsg" style="height: 110px;" minlength="10" maxlength="160" required></textarea>
                             </label>
                             <button class="w-40 rounded px-5 py-2 bg-primary text-themewhite" type="submit">Submit</button>
                         </fieldset>
@@ -232,12 +232,11 @@
         </div>
         <!-- contactSection end -->
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/c.js"></script>
 </body>
 
 </html>
