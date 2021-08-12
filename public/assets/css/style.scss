@@ -2,6 +2,9 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Arimo:regular,500,600,700,italic,500italic,600italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+
+@import 'social-icons.scss';
+
 :root {
     --primary-color: #48358C;
     --header-back-Notsupported: rgba(252, 239, 216, .9);
@@ -480,11 +483,14 @@ main.page-wrapper {
         .contact-form {
             width: 75%;
             padding: 50px 0 0 100px;
+            margin-bottom: 20px;
             label {
                 color: var(--primary-color);
                 margin-bottom: 30px;
                 padding-bottom: 10px;
-                
+                &:nth-child(n-1) {
+                    margin-bottom: 5px;
+                }
                 input,textarea {
                     background-color: transparent;
                     border-bottom: 1px solid var(--primary-lighter);

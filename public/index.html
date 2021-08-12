@@ -7,10 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sangeetika Kala Nilayam</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/require-js.js"></script> 
+
     <link rel="shortcut icon" href="assets/media/SVG/skn_logo.svg" type="image/svg">
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- customCss -->
+    <link rel="stylesheet" href="assets/css/style.css">    
+    <!-- tailwindCss -->
     <link rel="stylesheet" href="assets/tailwindcss/tailwindcss-all.css">
-    <script src="assets/js/require-header.js"></script> 
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
     <!-- Plugins -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -18,6 +25,7 @@
 
 <body class="body home-page">
     <header id="header"></header>
+    <div id="social-container" class="z-50 relative font-myfont-sans"></div>
     <main class="page-wrapper z-5 scroll-snap-y overflow-y-scroll scroll-smooth h-screen font-myfont-serif">
         <!-- heroSection -->
         <div id="home" class="wrapper-item hero-section">
@@ -209,7 +217,7 @@
                                 </p>
                                 <textarea name="contact-pmsg" id="contact-pmsg" style="height: 110px;" minlength="100" maxlength="160" required></textarea>
                             </label>
-                            <button type="submit">Submit</button>
+                            <button class="w-40 rounded px-5 py-2 bg-primary text-themewhite" type="submit">Submit</button>
                         </fieldset>
                     </form>
                     <p class="copyrights font-myfont-sans text-center vertical-middle">

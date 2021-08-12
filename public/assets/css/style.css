@@ -2,6 +2,91 @@
 @import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
 @import url(https://fonts.googleapis.com/css?family=Arimo:regular,500,600,700,italic,500italic,600italic,700italic);
 @import url(https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic);
+.social-icon-card {
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translate(0%, -50%);
+}
+.social-icon-card ul {
+  list-style: none;
+}
+.social-icon-card ul li {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  background: #e59500;
+  cursor: pointer;
+}
+.social-icon-card ul li .fa {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: #fff;
+}
+.social-icon-card ul li:hover .slider {
+  width: 180px;
+  transition: all 0.5s ease;
+}
+.social-icon-card ul li:hover .slider a {
+  opacity: 1;
+  transition: all 1s 0.2s ease;
+}
+.social-icon-card ul li.facebook {
+  background: #3b5998;
+}
+.social-icon-card ul li.facebook div.slider {
+  background: #3b5998;
+}
+.social-icon-card ul li.twitter {
+  background: #00aced;
+}
+.social-icon-card ul li.twitter div.slider {
+  background: #00aced;
+}
+.social-icon-card ul li.instagram {
+  background: #bc2a8d;
+}
+.social-icon-card ul li.instagram div.slider {
+  background: #bc2a8d;
+}
+.social-icon-card ul li.google {
+  background: #dd4b39;
+}
+.social-icon-card ul li.google div.slider {
+  background: #dd4b39;
+}
+.social-icon-card ul li.whatsapp {
+  background: #4dc247;
+}
+.social-icon-card ul li.whatsapp div.slider {
+  background: #4dc247;
+}
+.social-icon-card .slider {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 51px;
+  width: 0px;
+  height: 50px;
+  background: #eebb5c;
+  transition: all 0.5s 0.3s ease;
+}
+.social-icon-card .slider a {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  line-height: 50px;
+  opacity: 0;
+  transition: all 0.6s ease;
+  display: block;
+  text-decoration: none;
+}
+
 :root {
   --primary-color: #48358C;
   --header-back-Notsupported: rgba(252, 239, 216, .9);
@@ -456,11 +541,15 @@ main.page-wrapper .contactSection {
 main.page-wrapper .contactSection .contact-form {
   width: 75%;
   padding: 50px 0 0 100px;
+  margin-bottom: 20px;
 }
 main.page-wrapper .contactSection .contact-form label {
   color: var(--primary-color);
   margin-bottom: 30px;
   padding-bottom: 10px;
+}
+main.page-wrapper .contactSection .contact-form label:nth-child(n-1) {
+  margin-bottom: 5px;
 }
 main.page-wrapper .contactSection .contact-form label input, main.page-wrapper .contactSection .contact-form label textarea {
   background-color: transparent;
