@@ -32,7 +32,7 @@
 }
 .social-icon-card ul li:hover .slider a {
   opacity: 1;
-  transition: all 1s 0.2s ease;
+  transition: all 0.25s 0.2s ease;
 }
 .social-icon-card ul li.facebook {
   background: #3b5998;
@@ -52,11 +52,11 @@
 .social-icon-card ul li.instagram div.slider {
   background: #bc2a8d;
 }
-.social-icon-card ul li.google {
-  background: #dd4b39;
+.social-icon-card ul li.youtube {
+  background: #ff0100;
 }
-.social-icon-card ul li.google div.slider {
-  background: #dd4b39;
+.social-icon-card ul li.youtube div.slider {
+  background: #ff0100;
 }
 .social-icon-card ul li.whatsapp {
   background: #4dc247;
@@ -72,12 +72,12 @@
   width: 0px;
   height: 50px;
   background: #eebb5c;
-  transition: all 0.5s 0.3s ease;
+  transition: all 0.25s 0.2s ease;
 }
 .social-icon-card .slider a {
   text-transform: uppercase;
   font-size: 16px;
-  font-weight: 900;
+  font-weight: 600;
   color: #fff;
   text-align: center;
   line-height: 50px;
