@@ -6,18 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sangeetika Kala Nilayam</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="assets/js/require-js.js"></script> 
-
     <link rel="shortcut icon" href="assets/media/SVG/skn_logo.svg" type="image/svg">
-
     <!-- customCss -->
-    <link rel="stylesheet" href="assets/css/style.css">    
+    <link rel="stylesheet" href="assets/css/style.css">
     <!-- tailwindCss -->
     <link rel="stylesheet" href="assets/tailwindcss/tailwindcss-all.css">
     <!-- fontawesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    
+    <!-- Animate Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- Plugins -->
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -25,11 +22,17 @@
 
 <body class="body home-page">
     <header id="header"></header>
-    <div id="social-container" class="z-50 relative font-myfont-sans"></div>
+    <div id="social-container" class="social-icons-cont z-50 relative font-myfont-sans"></div>
     <main class="page-wrapper z-5 scroll-snap-y overflow-y-scroll scroll-smooth h-screen font-myfont-serif">
         <!-- heroSection -->
-        <div id="home" class="wrapper-item hero-section">
+        <div id="home" class="wrapper-item heroSection">
             <video class="h-full w-screen object-cover" src="assets/media/hero-background.mp4" autoplay muted></video>
+            <div class="mobile-heroSection">
+                <span class="image-hero-mb animate__animated animate__fadeInDownBig"></span>
+                <h2 class="heroHeading-mb animate__animated animate__zoomInDown">
+                    Sangeetika Kala Nilayam
+                </h2>
+            </div>
         </div>
         <!-- heroSection end -->
         <!-- aboutSection -->
@@ -57,7 +60,8 @@
         </div>
         <!-- aboutSection end -->
         <div id="activities" class="wrapper-item activitiesSection">
-            <h2 class="heading-shadow activities-heading text-center mx-auto pt-16 w-full mb-7 text-primary text-4xl font-black">
+            <h2
+                class="heading-shadow activities-heading text-center mx-auto pt-16 w-full mb-7 text-primary text-4xl font-black">
                 ACTIVITIES</h2>
             <div class="activities-carousel items-center justify-center font-myfont-sans">
                 <div class="activity-item">
@@ -105,7 +109,8 @@
         <!-- teamSection -->
         <div id="our-team" class="wrapper-item teamSection">
             <div class="flex flex-col justify-center items-center h-full">
-                <h2 class="heading-shadow team-heading text-center w-full mb-10 text-primary text-left text-4xl font-black">
+                <h2
+                    class="heading-shadow team-heading text-center w-full mb-10 text-primary text-left text-4xl font-black">
                     TEAM
                 </h2>
                 <div class="team-items">
@@ -164,20 +169,23 @@
         <!-- teamSection end -->
         <!-- certificationSection -->
         <div id="certification" class="wrapper-item certificationSection">
-            <div class="h-full mx-20 mr-0 flex justify-center items-center">
-                <div class="h-full flex sm:flex-col md:flex-row items-center justify-center">
+            <div class="c_I h-full mx-20 mr-0 flex justify-center items-center">
+                <div class="c_II h-full flex sm:flex-col md:flex-row items-center justify-center">
                     <div class="w-1/2 certificate-left">
                         <img class="w-5/6 mb-9" src="assets/media/images/sample-certificate.png" alt="certificate">
-                        <a class="button-certificate text-themewhite font-myfont-sans font-medium" href="coming-soon.html">
+                        <a class="button-certificate text-themewhite font-myfont-sans font-medium"
+                            href="coming-soon.html">
                             Get Certificate 👆
                         </a>
                     </div>
                     <div class="w-1/2 certificate-right flex flex-col items-center justify-center">
                         <div class="certification-content px-20 pr-14">
-                            <h2 class="heading-shadow certifications-heading w-full mb-12 text-primary text-left text-4xl font-black">
+                            <h2
+                                class="heading-shadow certifications-heading w-full mb-12 text-primary text-left text-4xl font-black">
                                 CERTIFICATIONS
                             </h2>
-                            <p class="lg:text-md 2xl:text-xl xl:text-xl text-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+                            <p class="lg:text-md 2xl:text-xl xl:text-xl text-justify">Lorem Ipsum is simply dummy text
+                                of the printing and typesetting industry. Lorem Ipsum
                                 has been the industry's standard dummy text ever since the 1500s, when an unknown
                                 printer took a galley of type and scrambled it to make a type specimen book. It has
                                 survived not only five centuries, but also the leap into electronic typesetting,
@@ -192,10 +200,11 @@
         <!-- certificationSection end-->
         <!-- contactSection -->
         <div id="contact-us" class="wrapper-item contactSection">
-            <div class="flex h-full">
-                <div class="w-1/2 flex flex-col justify-between">
-                    <form id='contact-form' autocomplete="off" class="contact-form flex flex-col">
-                        <h2 class="heading-shadow contact-heading w-full mb-12 text-primary text-left text-4xl font-black">
+            <div class="contact-inner flex h-full">
+                <div class="co_I w-1/2 flex flex-col justify-between">
+                    <form id='contact-form' class="contact-form flex flex-col">
+                        <h2
+                            class="heading-shadow contact-heading w-full mb-12 text-primary text-left text-4xl font-black">
                             Send Us a Message
                         </h2>
                         <fieldset class="font-myfont-sans flex flex-col">
@@ -203,27 +212,29 @@
                                 <p>
                                     NAME
                                 </p>
-                                <input type="text" name="name" id="contact-pname" minlength="3" required/> 
+                                <input type="text" name="name" id="contact-pname" minlength="3" required />
                             </label>
                             <label class="flex flex-col" for="contact-pemail" id="contact-pemail_label">
                                 <p>
                                     EMAIL
                                 </p>
-                                <input type="email" name="email" id="contact-pemail" required/> 
+                                <input type="email" name="email" id="contact-pemail" required />
                             </label>
                             <label class="flex flex-col" for="contact-pmobile" id="contact-pmobile_label">
                                 <p>
                                     Phone
                                 </p>
-                                <input type="tel" name="mobile" id="contact-pmobile" required/> 
+                                <input type="tel" name="mobile" id="contact-pmobile" required />
                             </label>
                             <label class="flex flex-col" for="contact-pmsg" id="contact-pmsg_label">
                                 <p>
                                     MESSAGE
                                 </p>
-                                <textarea name="message" id="contact-pmsg" style="height: 110px;" minlength="10" maxlength="160" required></textarea>
+                                <textarea name="message" id="contact-pmsg" style="height: 110px;" minlength="10"
+                                    maxlength="160" required></textarea>
                             </label>
-                            <button class="w-40 rounded px-5 py-2 bg-primary text-themewhite" type="submit">Submit</button>
+                            <button class="w-40 rounded px-5 py-2 bg-primary text-themewhite"
+                                type="submit">Submit</button>
                         </fieldset>
                     </form>
                     <p class="copyrights font-myfont-sans text-center vertical-middle">
@@ -231,18 +242,21 @@
                         Designed with ❤️
                     </p>
                 </div>
-                <div class="w-1/2 maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.519976917925!2d78.64657872924694!3d17.45588909925234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9d3c500500dd%3A0xb7adbd08fa03da5e!2sSangeetika%20Kalanilayam!5e0!3m2!1sen!2sin!4v1628512043457!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="co_II w-1/2 maps">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d951.519976917925!2d78.64657872924694!3d17.45588909925234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb9d3c500500dd%3A0xb7adbd08fa03da5e!2sSangeetika%20Kalanilayam!5e0!3m2!1sen!2sin!4v1628512043457!5m2!1sen!2sin"
+                        style="border:0;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
         </div>
         <!-- contactSection end -->
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
     <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/c.js"></script>
+    <script src="assets/js/require-js.js"></script>
+
 </body>
 
 </html>

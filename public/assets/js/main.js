@@ -3,6 +3,7 @@ $(document).ready(function () {
   $('.nav-toggle').click(function () {
     $('.header-main').toggleClass('checked');
     $('.header-main .nav-items').toggleClass('checked');
+    $('.social-icons-cont').toggleClass('checked');
   });
   $('.nav-item.dropdown').click(function () {
     $('.nav-item.dropdown').toggleClass('checked');
