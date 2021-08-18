@@ -7,9 +7,9 @@ formId.submit((e)=>{
         data:formId.serialize(),
         method:"post",
         success:function (response){
-            alert("Form submitted successfully")
+            alert("Contact Form submitted successfully")
             window.location.reload()
-            //window.location.href="https://google.com"
+            //window.location.href="https://website.com"
         },
         error:function (err){
             alert("Something Error, Try again later!")
