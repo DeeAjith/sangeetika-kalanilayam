@@ -1,5 +1,6 @@
 $(document).ready(function () {
   // nav-mobile
+  console.log('%c Developed by @deeAjith https:://deeajith.in ', 'background: #222; color: #bada55');
   $('.nav-toggle').click(function () {
     $('.header-main').toggleClass('checked');
     $('.header-main .nav-items').toggleClass('checked');
