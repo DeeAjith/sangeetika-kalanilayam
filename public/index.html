@@ -5,43 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Sangeetika Kalanilayam">
+    <meta name="description"
+        content="Sangeetika Kalanilayam is a community where music seeks a connection with in and with each other. We provide Classical Carnatic Music, Light Music , Bhagavadgeeta Shlokas, Nitya Pooja Shlokas, Bhaagavata Padyalu, Dance, Painting & Crafts in a traditional way.">
+    <meta name="keywords"
+        content="Sangeetikakalanilayam, sangeetila kala nilayam, sangeetika kalanilayam, www.sangeetikakalanilayam.in, sangeetikakalanilayam.in">
+    <meta name="robots" content="index, follow">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="language" content="English">
+    <meta name="author" content="Sangeetika Kalanilayam">
+
     <title>Sangeetika Kala Nilayam</title>
     <link rel="shortcut icon" href="assets/media/SVG/skn_logo.svg" type="image/svg">
-    <style>
-        .coming-soon {
-            background: url("assets/media/SVG/gradient-1.svg") center / cover no-repeat;
-            position: relative;
-            overflow: clip;
-            width: 100vw;
-            height: 100vh;
-            z-index: 999;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-
-        .coming-soon::before {
-            content: "";
-            background: url("assets/media/SVG/shape-3.svg") center/cover no-repeat;
-            opacity: .1;
-            width: 120vw;
-            height: 120vh;
-            position: absolute;
-            mix-blend-mode: overlay;
-        }
-
-        .coming-soon span.o::after {
-            font-size: 10rem;
-            animation: anime infinite;
-            content: '.';
-            mix-blend-mode: multiply;
-            line-height: 0;
-        }
-
-        .coming-soon .o {
-            font-size: 0;
-        }
-    </style>
     <!-- customCss -->
     <link rel="stylesheet" href="assets/css/style.css">
     <!-- tailwindCss -->
@@ -56,48 +31,6 @@
 </head>
 
 <body class="body home-page">
-    <div class="coming-soon">
-
-        <h1 class="font-black text-6xl md:text-7xl text-center text-primary">
-            C<span class="o">o</span>ming <br>
-            <span class="text-secondary-200">S<span class="o">o</span>on!</span>
-        </h1>
-        <p id="yay" class="mt-5 font-black text-xl uppercase text-center text-primary">
-
-        </p>
-
-        <script>
-            // Set the date we're counting down to
-            var countDownDate = new Date('2021-8-21 15:50:00').getTime();
-
-            // Update the count down every 1 second
-            var x = setInterval(function () {
-
-                // Get today's date and time
-                var now = new Date().getTime();
-
-                // Find the distance between now and the count down date
-                var distance = countDownDate - now;
-
-                // Time calculations for days, hours, minutes and seconds
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-                // Output the result in an element with id="demo"
-                document.getElementById("yay").innerHTML = days + "d " + hours + "h " +
-                    minutes + "m " + seconds + "s ";
-
-                // If the count down is over, write some text 
-                if (distance < 0) {
-                    clearInterval(x);
-                    document.getElementById("yay").innerHTML =
-                        "🎊 Please Refresh 🎊 <br> If you are still here 🔄";
-                }
-            }, 1000);
-        </script>
-    </div>
     <header id="header"></header>
     <div id="social-container" class="social-icons-cont z-50 relative font-myfont-sans"></div>
     <main class="page-wrapper z-5 scroll-snap-y overflow-y-scroll scroll-smooth h-screen font-myfont-serif">
@@ -332,7 +265,6 @@
     <script src="assets/js/main.js"></script>
     <script src="assets/js/c.js"></script>
     <script src="assets/js/require-js.js"></script>
-    <script src="counter.js"></script>
 </body>
 
 </html>
